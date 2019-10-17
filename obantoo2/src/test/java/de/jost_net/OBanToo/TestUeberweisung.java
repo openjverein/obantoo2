@@ -53,7 +53,7 @@ public class TestUeberweisung
       e2.setBetrag(new BigDecimal("0.01"));
       e2.setBic("DRESDEFF265");
       e2.setIban("DE32265800700732502200");
-      e2.setName("M�ller");
+      e2.setName("Müller");
       e2.setVerwendungszweck("Testueberweisung");
       e2.setReferenz("67890");
 

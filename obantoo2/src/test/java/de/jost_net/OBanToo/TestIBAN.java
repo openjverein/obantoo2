@@ -60,7 +60,7 @@ public class TestIBAN
   }
 
   /**
-   * Standardmethode - Ung�ltige Pr�fziffer
+   * Standardmethode - Ungültige Prüfziffer
    */
   @Test
   public void regel000002()
@@ -72,7 +72,7 @@ public class TestIBAN
     }
     catch (SEPAException e)
     {
-      assertEquals("Ung�ltige IBAN. Pr�fziffer falsch. DE11478535200001861889",
+      assertEquals("Ungültige IBAN. Prüfziffer falsch. DE11478535200001861889",
           e.getMessage());
     }
   }

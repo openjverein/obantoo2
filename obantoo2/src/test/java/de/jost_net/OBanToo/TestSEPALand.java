@@ -27,7 +27,7 @@ public class TestSEPALand
     {
       if (sl.check("DE12123"))
       {
-        fail("Ung�ltige L�nge wurde nicht erkannt");
+        fail("Ungültige Länge wurde nicht erkannt");
       }
     }
     catch (SEPAException e)
@@ -49,7 +49,7 @@ public class TestSEPALand
     }
     catch (SEPAException e)
     {
-      fail("G�ltige L�nge wurde als ung�ltig erkannt");
+      fail("Gültige Länge wurde als ungültig erkannt");
     }
   }
 
@@ -60,7 +60,7 @@ public class TestSEPALand
     try
     {
       sl.check("DE893A0400440532013000");
-      fail("Ung�ltiges Zeichen nicht erkannt");
+      fail("Ungültiges Zeichen nicht erkannt");
     }
     catch (SEPAException e)
     {
@@ -75,7 +75,7 @@ public class TestSEPALand
     try
     {
       sl.check("DE8937040044053201300X");
-      fail("Ung�ltiges Zeichen nicht erkannt");
+      fail("Ungültiges Zeichen nicht erkannt");
     }
     catch (SEPAException e)
     {
@@ -90,7 +90,7 @@ public class TestSEPALand
     try
     {
       sl.check("DE8937040044053201300X");
-      fail("Ung�ltiges Zeichen nicht erkannt");
+      fail("Ungültiges Zeichen nicht erkannt");
     }
     catch (SEPAException e)
     {
@@ -105,7 +105,7 @@ public class TestSEPALand
     try
     {
       sl.check("BG800NBG96611020345678");
-      fail("Ung�ltiges Zeichen nicht erkannt");
+      fail("Ungültiges Zeichen nicht erkannt");
     }
     catch (SEPAException e)
     {
@@ -120,7 +120,7 @@ public class TestSEPALand
     try
     {
       sl.check("BG800NBG9661102034567$");
-      fail("Ung�ltiges Zeichen nicht erkannt");
+      fail("Ungültiges Zeichen nicht erkannt");
     }
     catch (SEPAException e)
     {
