@@ -905,7 +905,7 @@ public class AccountCRCAlgs
     {
       n.append((char) (number[i] + '0'));
     }
-    return new PZRet(n.equals("0185125434"));
+    return new PZRet(n.toString().equals("0185125434"));
   }
 
   /** @author Heiner */
